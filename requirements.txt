@@ -1,0 +1,28 @@
+# Core Dependencies
+face-recognition>=1.3.0
+opencv-python>=4.5.0
+numpy==1.26.4
+matplotlib>=3.3.0
+Pillow>=8.0.0
+pandas>=1.2.0
+
+# Additional Utilities
+tabulate>=0.8.9
+
+# Face Recognition Dependencies (automatically installed with face-recognition)
+# dlib>=19.22.0  # Automatically installed with face-recognition
+# cmake>=3.18.0  # May be required for dlib installation
+
+# System-specific notes:
+# Windows: You may need to install Visual Studio Build Tools
+# macOS: You may need to install Xcode Command Line Tools
+# Linux: You may need to install python3-dev and cmake
+
+# Optional: For better performance
+# scikit-image>=0.18.0  # Alternative image processing
+# opencv-contrib-python>=4.5.0  # Additional OpenCV modules
+
+# Development Dependencies (optional)
+# pytest>=6.2.0  # For testing
+# black>=21.0.0  # Code formatting
+# flake8>=3.8.0  # Code linting
